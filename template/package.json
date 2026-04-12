@@ -1,0 +1,10 @@
+{
+  "readme": "Purely for VS Code developer experience",
+  "name": "application",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@types/google-apps-script": "2.0.8",
+    "vue-tsc": "^3.2.6"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "include": ["server/**/*", "shared/**/*"],
+  "exclude": [],
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "allowJs": true
+  }
+}

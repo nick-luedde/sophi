@@ -1,0 +1,17 @@
+[package]
+name = "sophi"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm = "0.10.3"
+colored = "3.0.0"
+console = "0.16.2"
+dialoguer = "0.12.0"
+dotenv = "0.15.0"
+minify-html = "0.18.1"
+minify-js = "0.6.0"
+oauth2 = { version = "5.0.0", features = ["reqwest-blocking"] }
+open = "5.3.3"
+serde_json = "1.0.145"
+keyring = { version = "3", features = ["apple-native", "windows-native", "sync-secret-service"] }
