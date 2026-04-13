@@ -8,6 +8,7 @@ mod login;
 mod logout;
 mod push;
 mod ship;
+mod template;
 mod unknown;
 mod util;
 
@@ -64,6 +65,15 @@ impl Sophi {
             let run = ship::SophiShip {};
 
             run.action();
+            return;
+        }
+
+        if command == "template" {
+            let template = template::SophiTemplate {
+                command: SophiBase { args: command_args },
+            };
+
+            template.action();
             return;
         }
 
