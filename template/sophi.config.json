@@ -1,0 +1,24 @@
+{
+  "driveUrl": "<google-drive-folder-url-where-script-project-and-other-resources-live>",
+  "apps": [
+    {
+      "default": true,
+      "name": "prodcution",
+      "scriptId": "<your-script-id>",
+      "devUrl": "<url-for-dev>",
+      "deployment": {}
+    }
+  ],
+  "script": [
+    {
+      "src": "./build/index.js",
+      "to": "server/index"
+    }
+  ],
+  "html": [
+    {
+      "src": "./build/index.html",
+      "to": "client/index"
+    }
+  ]
+}
