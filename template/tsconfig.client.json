@@ -1,5 +1,5 @@
 {
-  "include": ["client/**/*.{js,vue}", "shared/**/*"],
+  "include": ["client/**/*.js", "client/**/*.vue", "shared/**/*"],
   "compilerOptions": {
     "lib": ["ESNext", "DOM"],
     "allowJs": true

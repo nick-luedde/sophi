@@ -12,11 +12,27 @@ It's opinionated and provides a base file structure that gives you the space you
 
 ### 1. Installation
 
+Ensure you have the [Rust toolchain](https://rustup.rs/) installed, then run:
+
 ```bash
-cargo install ---git "https://github.com/nick-luedde/sophi/tree/main"
+cargo install ---git "https://github.com/nick-luedde/sophi"
 ```
 
-### 2. Start a new project.
+### 2. Get API credentials.
+
+Follow the guide here to set up a GCP project and generate your client id and client secret.
+<https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid#get_your_google_api_client_id>
+
+> Once you have your credentials, add them in a .env file in the install directory.
+
+```text
+CLIENT_ID=<your-gcp-client-id>
+CLIENT_SECRET=<your-gcp-client-secret>
+```
+
+### 3. Start a new project.
+
+You can start your project wherever you want.
 
 ```bash
 cd my-workspace
@@ -25,7 +41,7 @@ sophi template "/project"
 
 This sets up the file structure for creating a Google Spps Script project with sophi. More on that later.
 
-### 3. Set up your `sophi.config.json file`
+### 4. Set up your `sophi.config.json file`
 
 ```json
 {

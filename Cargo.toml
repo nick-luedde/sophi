@@ -1,7 +1,8 @@
 [package]
 name = "sophi"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
+description = "Command line utility for developing Google Apps Script web apps"
 
 [dependencies]
 aes-gcm = "0.10.3"
@@ -16,3 +17,7 @@ open = "5.3.3"
 serde_json = "1.0.145"
 keyring = { version = "3", features = ["apple-native", "windows-native", "sync-secret-service"] }
 rust-embed = "8.0"
+
+[[bin]]
+name = "sophi"
+path = "src/main.rs"
