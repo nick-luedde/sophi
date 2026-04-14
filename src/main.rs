@@ -107,7 +107,7 @@ impl Sophi {
             return;
         }
 
-        if command == "help" {
+        if command == "help" || command == "--help" {
             let help = help::SophiHelp {};
 
             help.action();

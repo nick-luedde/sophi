@@ -8,7 +8,7 @@ impl SophiAction for SophiHelp {
     fn action(&self) {
         println!(
             "{}",
-            "Use this tool to build you apps script web app!".purple()
+            "Use this tool to build Google Apps Script web app!".purple()
         );
         println!("");
         println!("./client & ./server directories are built into the ./build directory.");
@@ -40,7 +40,7 @@ impl SophiAction for SophiHelp {
 
         println!("");
         println!("{}", "[Command] ship".blue());
-        println!("{}", "     [ARGS: none]".yellow());
+        println!("{}", "     [ARGS: (build and push args)]".yellow());
         println!("");
         println!("{}", "Example: >sophi ship".cyan());
         println!(
@@ -55,7 +55,7 @@ impl SophiAction for SophiHelp {
         println!("{}", "Example: >sophi dev".cyan());
         println!(
             "{}",
-            "  ^ opens the configured dev deployment of your Apps Script project".bold()
+            "  ^ opens the configured dev url for your Apps Script project".bold()
         );
         
         println!("");
@@ -85,7 +85,7 @@ impl SophiAction for SophiHelp {
         println!("{}", "Example: >sophi logout".cyan());
         println!(
             "{}",
-            "  ^ clears cached credentials for pushing to your Apps Script project".bold()
+            "  ^ revokes credentials for pushing to your Apps Script project".bold()
         );
     }
 }

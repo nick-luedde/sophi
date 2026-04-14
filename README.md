@@ -5,8 +5,9 @@
 It's opinionated and provides a base file structure that gives you the space you need for common features and room to grow.
 
 ### Key features
-* **Project template:** Start your project right with the template
-* **Secure OAuth:** Log in once, and you're running
+* **Develop apps script locally:** Get the benefits of VS code and source control without having to integrate a complex pipeline to get your code up to Google Apps Script.
+* **Project template:** Start your project right with the `template`.
+* **Integrate Vue.js, CSS, and more:** The template is a foundation, on top you can build what you need.
 
 ## Getting started
 
@@ -26,6 +27,8 @@ Follow the guide here to set up a GCP project and generate your client id and cl
 > Once you have your credentials, add them in a .env file in the install directory.
 
 ```text
+# In /path/to/sophi/install/.env
+
 CLIENT_ID=<your-gcp-client-id>
 CLIENT_SECRET=<your-gcp-client-secret>
 ```
