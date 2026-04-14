@@ -15,7 +15,7 @@ It's opinionated and provides a base file structure that gives you the space you
 Ensure you have the [Rust toolchain](https://rustup.rs/) installed, then run:
 
 ```bash
-cargo install ---git "https://github.com/nick-luedde/sophi"
+cargo install --git "https://github.com/nick-luedde/sophi"
 ```
 
 ### 2. Get API credentials.
